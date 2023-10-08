@@ -1,0 +1,1 @@
+{"version":3,"file":"contants.js","sourceRoot":"","sources":["../src/contants.ts"],"names":[],"mappings":";;;AAAa,QAAA,SAAS,GACpB,uEAAuE,CAAC;AAE7D,QAAA,UAAU,GAAG,yBAAyB,CAAC;AAEvC,QAAA,KAAK,GAAG;IACnB,IAAI,EAAE,MAAM;IACZ,OAAO,EAAE,SAAS;IAClB,YAAY,EAAE,cAAc;CAC7B,CAAC;AAEW,QAAA,WAAW,GAAG,EAAE,CAAC;AACjB,QAAA,kBAAkB,GAAG,EAAE,CAAC"}

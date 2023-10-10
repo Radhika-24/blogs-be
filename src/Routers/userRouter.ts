@@ -68,8 +68,9 @@ userRouter.route("/signup").post(async (req, res) => {
         }
       } catch (err) {
         console.log(err);
-        res.statusCode = 500;
+        res.statusCode = 200;
         res.json({ errorMessage: err.message });
+        return;
       }
       //create and store subscription id
       if (user.customerId) {
@@ -91,8 +92,9 @@ userRouter.route("/signup").post(async (req, res) => {
           }
         } catch (err) {
           console.log(err);
-          res.statusCode = 500;
+          res.statusCode = 200;
           res.json({ errorMessage: err.message });
+          return;
         }
       }
     }

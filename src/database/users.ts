@@ -9,6 +9,8 @@ const userSchema = new schema({
   plan: { type: String },
   userId: { type: String },
   dailyReadQuota: { type: Number },
+  customerId: { type: String },
+  subscriptionId: { type: String },
 });
 
 userSchema.plugin(passportMongoose);

@@ -11,3 +11,8 @@ export const PLANS = {
 
 export const PAGE_LENGTH = 10;
 export const STARTER_PLAN_QUOTA = 10;
+
+export const PLAN_ID = {
+  STARTER: "blogs-assignment-starter-INR-Monthly",
+  PROFFESIONAL: "blogs-assignment-INR-Monthly",
+};
